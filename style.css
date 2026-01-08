@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* Header CSS */
 a {
   text-decoration: none;
 }
@@ -49,3 +50,13 @@ a {
   cursor: pointer;
   border-radius: 15px 0 50px 0;
 }
+
+/* Main Body CSS */
+.banner-container {
+  background-color: #ffffff;
+  background: url("./assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
