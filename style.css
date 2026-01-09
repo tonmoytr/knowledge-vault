@@ -3,14 +3,17 @@
   padding: 0;
 }
 
-/* Header CSS */
 a {
   text-decoration: none;
 }
 
-.header-container {
+.container {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+/* Header CSS */
+.header-container {
   padding: 15px 0;
 }
 
@@ -51,6 +54,21 @@ a {
   border-radius: 15px 0 50px 0;
 }
 
+.button-secondary {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px 18px;
+  color: #fff;
+  margin-left: 18px;
+}
+
+.button-secondary:hover {
+  background-color: rgba(165, 244, 247, 0.123);
+  cursor: pointer;
+  border-radius: 15px 0 50px 0;
+}
+
 /* Main Body CSS */
 .banner-container {
   background-color: #ffffff;
@@ -60,3 +78,70 @@ a {
   background-repeat: no-repeat;
 }
 
+.hero-container {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 10% 0;
+  text-align: center;
+}
+
+.badge-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-badge {
+  width: 180px;
+  background-color: whitesmoke;
+  padding: 9px 14px;
+  border-radius: 25px;
+  margin-bottom: 3%;
+}
+
+.hero-badge {
+  color: #1f9e54;
+}
+
+.dot {
+  height: 9px;
+  width: 9px;
+  background-color: #1f9e54;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.hero-container h1 {
+  color: #fff;
+  font-size: 5em;
+  margin-bottom: 3%;
+}
+
+.hero-description {
+  color: #fff;
+  font-size: 1.3em;
+  line-height: 35px;
+  margin-bottom: 5%;
+}
+
+.title-subline {
+  color: #1f9e54;
+}
+
+/* Feature Section CSS */
+
+.features-container {
+  text-align: center;
+}
+
+.features-container hgroup{
+  padding: 5% 0;
+}
+
+.features-container hgroup h2{
+  font-size: 3.5em;
+}
+.features-container hgroup p{
+  font-size: 3.5em;
+}

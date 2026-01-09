@@ -23,7 +23,7 @@
   </head>
   <body>
     <!-- NavBar -->
-    <header class="header-container">
+    <header class="header-container container">
       <nav class="nav-container">
         <a href="/" class="nav-logo">
           <img src="./assets/logo-navbar.png" alt="Navbar Logo" />
@@ -38,25 +38,49 @@
     </header>
     <!-- Main content -->
     <main>
-      <section class="banner-container">
-        <div>
-          <div></div>
+      <!-- Hero Section -->
+      <section class="banner-container" aria-label="Hero-Section">
+        <div class="hero-container">
+          <div class="badge-parent">
+            <p class="hero-badge">
+              <span aria-hidden="true" class="dot"></span> Early Access Now Open
+            </p>
+          </div>
           <h1>
             Structured Thinking, <br />
-            Not Just Note Taking
+            <span class="title-subline"> Not Just Note Taking</span>
           </h1>
-          <p>
+          <p class="hero-description">
             A private space to store notes, links, and learning summaries —
-            designed to help you think clearly, connect ideas, and turn learning
-            into long-term knowledge.
+            designed to <br />
+            help you think clearly, connect ideas, and turn learning into
+            long-term knowledge.
           </p>
-          <div>
-            <a href="#"
-              >Start Building Your Vault <i class="fa-solid fa-arrow-right"></i>
+          <div class="hero-btn">
+            <a class="button-primary" href="#"
+              >Start Building Your Vault
+              <i aria-hidden="true" class="fa-solid fa-arrow-right"></i>
             </a>
-            <a href="#"> <i class="fa-solid fa-play"></i> See How It Works </a>
+            <a class="button-secondary" href="#">
+              <i aria-hidden="true" class="fa-solid fa-play"></i> See How It
+              Works
+            </a>
           </div>
         </div>
+      </section>
+
+      <!-- Features Section -->
+      <section
+        class="features-container container"
+        aria-label="Feature Section"
+      >
+        <hgroup>
+          <h2>Notes Don't Fail, Structure Does</h2>
+          <p>
+            You are not bad at learning. Your tools just weren't not built for
+            how knowledge actually works
+          </p>
+        </hgroup>
       </section>
     </main>
     <footer>
