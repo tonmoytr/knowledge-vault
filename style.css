@@ -70,7 +70,7 @@ li {
 }
 
 .button-secondary:hover {
-  background-color: rgba(165, 244, 247, 0.123);
+  background-color: #1f9e54;
   cursor: pointer;
   border-radius: 15px 0 50px 0;
 }
