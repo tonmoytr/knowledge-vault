@@ -30,7 +30,7 @@
         </a>
         <ul class="nav-list">
           <li><a href="features">Features</a></li>
-          <li><a href="howitworks">How It Works</a></li>
+          <li><a href="solutions">How It Works</a></li>
           <li><a href="whyitsdifferent">Why It's Different</a></li>
         </ul>
         <a class="button-primary" href="#">Get Early Access</a>
@@ -82,60 +82,137 @@
             how knowledge actually works
           </p>
         </hgroup>
+
         <!-- Features Cards -->
-        <section>
-          <ul class="features-cards">
-            <!-- First Card -->
-            <li class="feature-card">
-              <figure>
-                <img src="./assets/Vector.png" alt="Scattered Notes" />
-              </figure>
-              <h5>Scattered Notes</h5>
-              <p>
-                Your ideas live in 10 different apps, <br />
-                none of them are connected
-              </p>
+        <ul class="features-cards">
+          <!-- First Card -->
+          <li class="feature-card">
+            <figure>
+              <img src="./assets/Vector.png" alt="Scattered Notes" />
+            </figure>
+            <h3>Scattered Notes</h3>
+            <p>
+              Your ideas live in 10 different apps, <br />
+              none of them are connected
+            </p>
+          </li>
+          <!-- Second Card -->
+          <li class="feature-card">
+            <figure>
+              <img src="./assets/Bookmarks.png" alt="BookMark Overload" />
+            </figure>
+            <h3>BookMark Overload</h3>
+            <p>
+              Hundreds of saved links you will never <br />
+              revisit or remember
+            </p>
+          </li>
+          <!-- Third Card -->
+          <li class="feature-card">
+            <figure>
+              <img src="./assets/Brain.png" alt="No Idea Connections" />
+            </figure>
+            <h3>No Idea Connections</h3>
+            <p>
+              Insights stay isolated, never <br />
+              building into bigger understanding.
+            </p>
+          </li>
+          <!-- Fourth Card -->
+          <li class="feature-card">
+            <figure>
+              <img src="./assets/Info.png" alt="Forgetting What You Learned" />
+            </figure>
+            <h3>Forgetting What You Learned</h3>
+            <p>
+              Knowledge fades because there's <br />
+              no system to retain it.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- How It Work / Solution Section -->
+      <section
+        id="solutions"
+        class="container solution-container"
+        aria-label="Solution Sections"
+      >
+        <figure>
+          <img src="./assets/knowledge.png" alt="knowledge diagram" />
+        </figure>
+        <div class="solution-contents">
+          <hgroup>
+            <p class="eyebrow">THE SOLUTION</p>
+            <h2>
+              Your Second Brain, <br />
+              Structured By Design.
+            </h2>
+            <p class="solution-description">
+              Personal Knowledge Vault isn't another note-taking app. <br />
+              It's a thinking environment where every note, link, and summary
+              <br />
+              becomes part of an interconnected web of understanding.
+            </p>
+          </hgroup>
+          <ul>
+            <li>
+              <img src="./assets/CheckCircle.png" alt="CheckCircle" />
+              Capture ideas with structure built-in from day one
             </li>
-            <!-- Second Card -->
-            <li class="feature-card">
-              <figure>
-                <img src="./assets/Bookmarks.png" alt="Scattered Notes" />
-              </figure>
-              <h5>BookMark Overload</h5>
-              <p>
-                Hundreds of saved links you will never <br />
-                revisit or remember
-              </p>
+            <li>
+              <img src="./assets/CheckCircle.png" alt="CheckCircle" />
+              Connect related concepts automatically as you write
             </li>
-            <!-- Third Card -->
-            <li class="feature-card">
-              <figure>
-                <img src="./assets/Brain.png" alt="Scattered Notes" />
-              </figure>
-              <h5>No Idea Connections</h5>
-              <p>
-                Insights stay isolated, never <br />
-                building into bigger understanding.
-              </p>
+            <li>
+              <img src="./assets/CheckCircle.png" alt="CheckCircle" />
+              Build lasting knowledge through reflection prompts
             </li>
-            <!-- Fourth Card -->
-            <li class="feature-card">
-              <figure>
-                <img src="./assets/Info.png" alt="Scattered Notes" />
-              </figure>
-              <h5>Forgetting What You Learned</h5>
-              <p>
-                Knowledge fades because there's <br />
-                no system to retain it.
-              </p>
+            <li>
+              <img src="./assets/CheckCircle.png" alt="CheckCircle" />
+              Find anything instantly with semantic search
             </li>
           </ul>
-        </section>
+        </div>
       </section>
     </main>
-    <footer>
-      <!-- Footer Content -->
-      Footer
+    <!-- Footer Content -->
+    <footer class="footer">
+      <section class="container">
+        <div class="footer-top">
+          <a href="/"
+            ><img
+              class="footer-logo"
+              src="./assets/logo-footer.png"
+              alt="Knowledge Vault Logo"
+          /></a>
+          <nav class="footer-nav" aria-label="Social Media Links">
+            <p>Social Links</p>
+            <ul>
+              <li>
+                <a href="www.facebook.com" aria-label="Facebook">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="www.x.com" aria-label="X (Twitter)">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="www.linkedin.com" aria-label="Linkedin">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <hr class="hr" />
+        <div class="footer-bottom">
+          <small>
+            &copy; 2026 Personal Knowledge Vault. All rights reserved.</small
+          >
+        </div>
+      </section>
     </footer>
   </body>
 </html>

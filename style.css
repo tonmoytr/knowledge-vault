@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
 }
 
 a {
@@ -82,7 +85,7 @@ li {
 }
 
 .hero-container {
-  max-width: 50%;
+  max-width: 60%;
   margin: 0 auto;
   padding: 10% 0;
   text-align: center;
@@ -95,7 +98,7 @@ li {
 }
 
 .hero-badge {
-  width: 180px;
+  width: 200px;
   background-color: whitesmoke;
   padding: 9px 14px;
   border-radius: 25px;
@@ -117,7 +120,7 @@ li {
 
 .hero-container h1 {
   color: #fff;
-  font-size: 5em;
+  font-size: 5.5em;
   margin-bottom: 3%;
 }
 
@@ -136,10 +139,11 @@ li {
 
 .features-container {
   text-align: center;
+  padding-top: 5%;
 }
 
 .features-container hgroup {
-  padding: 5% 0;
+  padding-bottom: 5%;
 }
 
 .features-container hgroup h2 {
@@ -181,7 +185,93 @@ li {
   margin: 10px 0;
 }
 
-.feature-card h5{
+.feature-card h3 {
   font-size: 1.6em;
   margin-bottom: 16px;
+}
+
+.feature-card p {
+  color: gray;
+  /* padding: 8px 0; */
+}
+
+/* Solution CSS */
+.solution-container {
+  padding: 7% 0;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  text-align: left;
+}
+
+.eyebrow {
+  font-size: 1.3em;
+  font-weight: 400;
+  color: #1f9e54;
+  padding: 5px 0;
+}
+
+.solution-contents hgroup h2 {
+  font-size: 4em;
+  line-height: 70px;
+  padding: 20px 0;
+}
+
+.solution-description {
+  color: gray;
+  font-size: 1.2em;
+  padding-bottom: 30px;
+}
+
+.solution-container ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 8px;
+  font-size: 1.2em;
+}
+
+/* Footer CSS */
+
+.footer {
+  background-color: rgb(15, 15, 54);
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8% 0;
+}
+
+.footer-logo {
+  width: 140px;
+  height: auto;
+}
+
+.footer-nav p {
+  color: #fff;
+  font-size: 1.4em;
+  padding-bottom: 15px;
+}
+
+.footer-nav ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+
+.fa-brands {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.footer-bottom {
+  padding: 24px 0;
+  text-align: center;
+}
+
+.footer-bottom small {
+  color: #fff;
 }
